@@ -1,0 +1,301 @@
+/* HERNI */
+
+a:hover {
+  color: white!important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.carousel-inner img{
+  width: 100%;
+  max-height: 760px;
+}
+
+h5
+{
+  font-size: 35px;
+}
+
+.pie{
+  font-size: 20px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 25%;
+    bottom: 40px;
+    left: 25%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(0,0,0,1);
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+.container2
+{
+  background-image: url(../imagenes/grass.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-dark
+{
+  background-color: rgba(0,0,0,0.6)!important;
+}
+.boton
+{
+  color: white;
+  font-size: 20px!important;
+}
+
+.margen
+{
+  margin-top:130px;
+}
+
+.card_title
+{
+  text-align: center;
+}
+
+.card_fill
+{
+  opacity: 0.8;
+}
+
+.div_1
+{
+  margin-top: 120px;
+  margin-bottom: 100px;
+  max-width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgba(255,255,255,0.7) !important;
+  text-align: center;
+}
+
+.titulo
+{
+  background-color: Gray;
+  opacity: 0.8;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+.preguntas
+{
+  color:SlateGray;
+  background-color: black;
+  font-weight:lighter;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.respuesta
+{
+  color:SlateGray;
+  background-color: white;
+  font-weight:lighter;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 17px;
+  background-color: rgba(255,255,255,0.8) !important;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.item
+{
+  width: 35px;
+  height: 35px;
+  float: left;
+  display: inline;
+}
+
+
+.contenedor-foto-perfil{
+  position: absolute;
+  top: 100px;
+  left: 500px
+}
+
+.bienvenido{
+  color: black;
+}
+
+.fotosAvatar{
+
+}
+
+.fotoPerfil{
+  width: 250px;
+  height: 200px
+
+}
+
+.section1{
+  /* height: 1100px; */
+  background-image: url(sitemap.xml);
+  position: relative;
+  /*min-height: 100vh;*/
+
+}
+.footer{
+  width: 100%;
+  height: 110px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.links{
+  position: absolute;
+  left: 100px;
+  margin-top: 20px;
+  color: white;
+  font-size: 13px;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.img-footer{
+  width: 90px;
+  heigth: 90px;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 50%;
+  margin-right: 50%
+
+}
+
+.rrss{
+  float:right;
+  color: white;
+}
+
+.sectionBuscoJugador{
+  height: 800px;
+  display: flex;
+}
+
+.cardbuscoequipo{
+  position: relative;
+  top: 100px;
+}
+
+
+@media (max-width:360px)
+{
+  .div_1
+  {
+    width: 70%;
+  }
+  .titulo
+  {
+    font-size: 28px;
+  }
+  .preguntas
+  {
+    font-size:17px;
+  }
+  .respuesta
+  {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width:750px)
+{
+  .div_1
+  {
+    width: 70%;
+  }
+  .titulo
+  {
+    font-size: 31px;
+  }
+  .preguntas
+  {
+    font-size:19px;
+  }
+  .respuesta
+  {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 950px)
+{
+  .div_1
+  {
+    width: 70%;
+  }
+  .titulo
+  {
+    font-size: 34px;
+  }
+  .preguntas
+  {
+    font-size:21px;
+  }
+  .respuesta
+  {
+    font-size: 15px;
+  }
+
+
+}
+
+@media (max-width:1150px)
+{
+  .div_1
+  {
+    width: 70%;
+  }
+  .titulo
+  {
+    font-size: 37px;
+  }
+  .preguntas
+  {
+    font-size:23px;
+  }
+  .respuesta
+  {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width:1366px)
+{
+  .div_1
+  {
+    width: 70%;
+  }
+  .titulo
+  {
+    font-size: 40px;
+  }
+  .preguntas
+  {
+    font-size:25px;
+  }
+  .respuesta
+  {
+    font-size: 17px;
+  }
+
+}
