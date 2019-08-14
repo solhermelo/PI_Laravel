@@ -10,7 +10,7 @@
                   <div class="card-body">
                       <h3 class="card-title">Busco Jugador</h3>
                       <p class="card-text">¿Te falta un/a jugador/a para tu equipo? Encontralo.</p>
-                      <a class="btn btn-danger" href="buscoJugador.php" role="button">Clickea acá</a>
+                      <a class="btn btn-danger" href="buscoJugador" role="button">Clickea acá</a>
                   </div>
               </div>
               <div class="card">

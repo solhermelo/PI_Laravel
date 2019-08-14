@@ -1,4 +1,5 @@
-<section class="section1">
+
+<section class="section1 ">
         <!--comienzo carrousel -->
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" "carousel-inner img">
@@ -14,7 +15,7 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h5>ARMA EQUIPO</h5>
                             <p class="pie">Ahorra tiempo y encontrá a tu equipo para jugar donde quieras.</p>
-                            <a class="btn btn-danger" href="registracion.php" role="button">REGISTRATE</a>
+                            <a class="btn btn-danger" href="register" role="button">REGISTRATE</a>
                         </div>
                     </div>
 

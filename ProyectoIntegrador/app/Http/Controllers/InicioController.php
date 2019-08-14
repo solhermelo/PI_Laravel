@@ -9,8 +9,4 @@ class InicioController extends Controller
   public function inicio(){
     return view('inicio');
   }
-
-  public function faq(){
-    return view('faq');
-  }
 }
