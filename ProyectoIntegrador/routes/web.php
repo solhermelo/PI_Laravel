@@ -14,6 +14,7 @@
 Route::get('/', 'InicioController@inicio');
 Route::get('/faq', 'FaqController@listado');
 Route::get('/buscoJugador', 'BuscoJugadorController@buscar');
+Route::get('/BuscoEquipo', 'BuscoEquipoController@buscar');
 
 Auth::routes();
 

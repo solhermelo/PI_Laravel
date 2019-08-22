@@ -18,35 +18,31 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="/css/master.css">
+
 </head>
+
 <body>
-    <div id="app">
+    <div id="app" class="container-fluid">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top p-1">
-            <div class="container">
-              <a class="navbar-brand" href="index.php">
+              <a class="navbar-brand" href="/">
                   <img src="imagenes/logo-quienjuega.png" width="60" height="60" alt="logo" class="ml-2">
               </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <div class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
+                            <a class="nav-link nav-item active boton" href="{{ route('login') }}">{{ __('Iniciar Sesion') }} <span class="sr-only">(current)</span></a>
                             @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
+                            <button type="button" name="button" class="btn btn-danger ml-4 mr-4 pl-4 pr4">
+                                    <a class="boton" href="{{ route('register') }}">{{ __('Registrate') }}</a>
+                                </button>
                             @endif
                         @else
                             <li class="nav-item dropdown">
