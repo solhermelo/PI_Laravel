@@ -12,5 +12,4 @@ class BuscoEquipoController extends Controller
       $vac = compact("ofertas");
       return view('buscoEquipo', $vac);
     }
-
 }

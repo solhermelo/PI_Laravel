@@ -13,7 +13,14 @@ a:hover {
 
 h5
 {
-  font-size: 35px;
+font-size: 38px;
+font-family: 'Roboto', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Gothic A1', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Graduate', cursive;
+font-weight: bold;
 }
 
 .pie{
@@ -36,7 +43,7 @@ h5
 
 .container2
 {
-  background-image: url(/imagenes/grass.jpg);
+  background-image: url(../imagenes/grass.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -91,6 +98,10 @@ h5
 {
   color: white;
   font-size: 20px!important;
+}
+
+.boton2{
+  text-align: center;
 }
 
 .margen

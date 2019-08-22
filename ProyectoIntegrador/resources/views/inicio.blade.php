@@ -16,9 +16,9 @@
               <div class="card">
                   <img src="IMAGENES/buscar_equipo2.jpg" class="card-img-top" alt="buscar equipo">
                   <div class="card-body">
-                      <h3 class="card-title">Busco Equipo </h3>
+                      <h3 class="card-title">Busco Equipo</h3>
                       <p class="card-text">¿Querés jugar y no tenes equipo? Encontrá con quien jugar. </p>
-                      <a class="btn btn-danger" href="buscoEquipo" role="button">Clickea acá</a>
+                      <a class="btn btn-danger" href="BuscoEquipo" role="button">Clickea acá</a>
                   </div>
               </div>
               <div class="card">
