@@ -1,7 +1,7 @@
 <div id="app">
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top p-1">
         <div class="container">
-            <a class="navbar-brand" href="/inicio">
+            <a class="navbar-brand" href='/'>
                 <img src="/imagenes/logo-quienjuega.png" width="60" height="60" alt="logo" class="ml-2">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

@@ -18,7 +18,7 @@
                   <div class="card-body">
                       <h3 class="card-title">Busco Equipo </h3>
                       <p class="card-text">¿Querés jugar y no tenes equipo? Encontrá con quien jugar. </p>
-                      <a class="btn btn-danger" href="buscoEquipo.php" role="button">Clickea acá</a>
+                      <a class="btn btn-danger" href="buscoEquipo" role="button">Clickea acá</a>
                   </div>
               </div>
               <div class="card">

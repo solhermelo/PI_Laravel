@@ -44,19 +44,44 @@ h5
 .container3
 {
   background-image: url(/imagenes/grass.jpg);
+  /-background-color: rgb(217, 217, 217);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 1050px;
+}
+.container4
+{
+  /-background-color: rgb(217, 217, 217);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1050px;
+}
+
+
+.subtitulo-buscojugador{
+  width: 700px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .formBuscoJugador{
   position: absolute;
-  top: 100px;
+  top: 150px;
   left: 300px;
   background-color: rgba(255,255,255,0.5);
   width: 700px;
   padding: 20px;
 
+}
+
+.titulo1{
+  position: absolute;
+  top: 90px;
+  left: 275px;
 }
 .bg-dark
 {
@@ -209,6 +234,11 @@ h5
 .cardbuscoequipo{
   position: relative;
   top: 100px;
+}
+
+.tabla-busco-equipo{
+  position: absolute;
+  top: 150px;
 }
 
 
