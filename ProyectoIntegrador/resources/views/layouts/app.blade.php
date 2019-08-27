@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title')</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -18,12 +18,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 
-<body>
-    <div id="app" class="container-fluid">
+<body class="container1">
+    <div id="app" >
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top p-1">
               <a class="navbar-brand" href="/">
                   <img src="imagenes/logo-quienjuega.png" width="60" height="60" alt="logo" class="ml-2">
@@ -68,7 +68,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="login d-flex justify-content-center flex-column">
             @yield('content')
         </main>
     </div>

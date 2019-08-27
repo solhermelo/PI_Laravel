@@ -34,7 +34,5 @@
           <br>
         </article>
       <!--fin card -->
-
-  </section>
   </main>
 @endsection

@@ -5,5 +5,6 @@
     <meta name="viewport" content="width=device-width" , "initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo|Gothic+A1|Graduate|Lora|Roboto|Teko&display=swap"rel="stylesheet">
-    
+    <title>@yield('title', 'Inicio')</title>
+
 </head>

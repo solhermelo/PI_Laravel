@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-  <main>
+  <body class="container2">
     <div class="container4">
       <table class="table table-hover tabla-busco-equipo">
         <thead>
@@ -34,5 +34,5 @@
         </tbody>
       </table>
       </div>
-    </main>
+    </body>
   @endsection
