@@ -11,14 +11,17 @@ use App\Equipo;
 
 class ExitoBuscoEquipoController extends Controller
 {
-    public function unirme(){
+    public function unirme($id){
+
       $jugadores = new Jugador();
-      $jugadores->user_id = auth()->id();
+      $jugadores->user_id = $id;
       $jugadores->save();
 
+      $equipo = Equipo::find($id);
+
       $equipoJugador = new EquipoJugador();
-      $equipoJugador->equipo_id = Equipo::find('id');
-      $equipoJugador->jugador_id = Jugador::find('id');
+      $equipoJugador->equipo_id = $equipo->id;
+      $equipoJugador->jugador_id = $jugadores->id;
       $equipoJugador->save();
 
       return view("/exitoBuscoEquipo");

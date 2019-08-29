@@ -15,11 +15,10 @@ class MiddlewareAcceso
      */
     public function handle($request, Closure $next)
     {
-      $user = auth()->user();
-        if($user){
-          return view('/buscoJugador');
-        }else{
+        if(auth()->user()){
           return redirect('/login');
+        }else{
+          return view('/buscoEquipo');
         }
         return $next($request);
     }

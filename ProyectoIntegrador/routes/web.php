@@ -16,8 +16,10 @@ Route::get('/buscoJugador', 'BuscoJugadorController@buscar');
 Route::post('/buscoJugador', 'BuscoJugadorController@agregar');
 Route::get('/exitoBuscoJugador', 'ExitoBuscoJugadorController@mensaje');
 Route::get('/buscoEquipo', 'BuscoEquipoController@listado');
-Route::get('/exitoBuscoEquipo', 'ExitoBuscoEquipoController@unirme');
+Route::get('/exitoBuscoEquipo/{id}', 'ExitoBuscoEquipoController@unirme');
 Route::get('/faq', 'FaqController@listado');
+Route::get('/misPartidos', 'MisPartidosController@editar');
+Route::get('/eliminarPartido', 'EliminarPartidoController@borrar');
 
 Auth::routes();
 

@@ -4,6 +4,7 @@
     <div class="container4 row">
       <table class="table table-hover tabla-busco-equipo">
         <thead>
+    
           <tr class="thead-dark">
             <th scope="col" class="text-center w-10"></th>
             <th scope="col" class="text-center w-10">Equipo</th>
@@ -34,7 +35,7 @@
                 <td class="text-center pt-4">{{$equipo->aclaraciones}}</td>
                 <td class="text-center pt-4">
                 <button type="button" class="btn btn-danger">
-                  <a href="/exitoBuscoEquipo" class="text-white">Jugar</a></button>
+                  <a href="/exitoBuscoEquipo/{{auth()->user()->id}}" class="text-white">Jugar</a></button>
               </td>
               </tr>
             @empty
