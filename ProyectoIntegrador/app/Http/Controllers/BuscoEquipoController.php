@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Oferta;
+use App\Equipo;
 
 class BuscoEquipoController extends Controller
 {
     public function listado(){
-      $ofertas = Oferta::all();
-      $vac = compact("ofertas");
+      $equipos = Equipo::paginate(5);
+      $vac = compact("equipos");
       return view('buscoEquipo', $vac);
     }
 }

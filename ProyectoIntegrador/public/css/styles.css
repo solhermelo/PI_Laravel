@@ -50,18 +50,18 @@ font-weight: bold;
 
 .container3
 {
-  background-image: url(/imagenes/grass.jpg);
-  /-background-color: rgb(217, 217, 217);
+  //-background-image: url(/imagenes/grass.jpg);
+  background-color: rgb(217, 217, 217);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1050px;
+  height: 1150px;
 }
 .container4
 {
   /-background-color: rgb(217, 217, 217);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1050px;
+  height: 600px;
 }
 
 
@@ -250,6 +250,20 @@ font-weight: bold;
 .tabla-busco-equipo{
   position: absolute;
   top: 150px;
+}
+
+.container5{
+  height: 600px;
+
+}
+
+.card-exito{
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+.img-exito{
+
 }
 
 
