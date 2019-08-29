@@ -55,18 +55,35 @@ main.login{
 .container3
 {
   background-image: url(/imagenes/footballs.jpg);
-//-background-color: rgb(220, 187, 187);251, 222, 124
   background-size: cover;
-  -background-repeat: no-repeat;
-  height: 1100px;
-
+  background-repeat: no-repeat;
 }
+
+.cuerpo
+{
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.auto{
+  margin-left: 50%;
+  margin-right: 20;
+}
+
+.form-group
+{
+  margin-left:10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+
 .container4
 {
   //-background-color: rgb(220, 187, 187);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 530px;
+  height: 100vh;
   position: relative;
   bottom:35px;
   right: 12px;
@@ -145,17 +162,6 @@ main.login{
   opacity: 0.8;
 }
 
-.div_1
-{
-  margin-top: 120px;
-  margin-bottom: 100px;
-  max-width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: rgba(255,255,255,0.7) !important;
-  text-align: center;
-}
-
 .titulo
 {
   background-color: Gray;
@@ -231,53 +237,71 @@ main.login{
 }
 .footer{
   width: 100%;
-  height: 110px;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
   padding: 10px;
   background-color: rgba(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
+@media (max-width:575.98px) {
+  .footer{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.social{
+  position:relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.footer-menu{
+  margin-bottom: 20px;
+}
 .links{
-  position: absolute;
-  left: 80px;
+  display: inline-block;
+  width: 100%;
   margin-top: 10px;
   color: white;
-  font-size: 13px;
+  font-size: 16px;
   text-decoration: underline;
   font-family: sans-serif;
 }
+@media (max-width: 575.98px) {
+  .links{
+    text-align: center;
+  }
+}
 .img-footer{
   width: 90px;
-  heigth: 90px;
-  position: absolute;
-  bottom: 10px;
+  /*margin-left: 50%;*/
+  margin-right: 20px;
+}
+
+.center2 {
+  display: block;
   margin-left: 50%;
-  right: 600px;
+  margin-right: 50%;
 
 }
 
 .tituloiconos{
-  float:right;
   color: white;
   position: relative;
-  bottom: 40px;
-  right: 140px;
+  text-align: center;
 }
 
 .rrss{
-  float:right;
   color: white;
-  position: relative;
-  bottom: 40px;
-
 }
 
 .iconosrs{
   padding: 20px;
   display: inline-flex;
-  float: right;
 
 }
 
@@ -302,6 +326,8 @@ main.login{
   background-image: url(../imagenes/fondologin.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 .formlogin{
   position: relative;
@@ -319,11 +345,6 @@ main.login{
 {
     background-color: rgba(255,255,255,0.8);
     font-size: 17px;
-}
-
-.cuerpo{
-  margin-top: 7%;
-  margin-bottom: 15%;
 }
 
 .container-main{
@@ -356,9 +377,50 @@ main.login{
   font-family: sans-serif;
 }
 
-@media (max-width:360px)
+.div_1
+{
+  margin-top: 120px;
+  margin-bottom: 100px;
+  max-width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgba(255,255,255,0.7) !important;
+}
+
+
+@media (max-width:260px)
 {
   .div_1
+  {
+    width: 50%;
+  }
+  .titulo
+  {
+    font-size: 24px;
+  }
+  .preguntas
+  {
+    font-size:15px;
+  }
+  .respuesta
+  {
+    font-size: 11px;
+  }
+  .titulo2
+  {
+    font-size:16%;
+  }
+
+}
+
+@media (min-width:360px)
+{
+  .div_1
+  {
+    width: 70%;
+  }
+
+  .div_2
   {
     width: 70%;
   }
@@ -366,20 +428,30 @@ main.login{
   {
     font-size: 28px;
   }
-  .preguntas
-  {
+  .preguntas{
     font-size:17px;
   }
-  .respuesta
-  {
+  .respuesta2{
     font-size: 13px;
   }
 
+  .titulo2{
+    font-size:18px;
+  }
+  .respuesta2{
+    font-size: 13px;
+  }
+
+
 }
 
-@media (max-width:750px)
+@media (min-width:750px)
 {
   .div_1
+  {
+    width: 70%;
+  }
+  .div_2
   {
     width: 70%;
   }
@@ -395,12 +467,20 @@ main.login{
   {
     font-size: 14px;
   }
+  .titulo2
+  {
+    font-size:20px;
+  }
 
 }
 
-@media (max-width: 950px)
+@media (min-width: 950px)
 {
   .div_1
+  {
+    width: 70%;
+  }
+  .div_2
   {
     width: 70%;
   }
@@ -416,13 +496,21 @@ main.login{
   {
     font-size: 15px;
   }
+  .titulo2
+  {
+    font-size:23px;
+  }
 
 
 }
 
-@media (max-width:1150px)
+@media (min-width:1150px)
 {
   .div_1
+  {
+    width: 70%;
+  }
+  .div_2
   {
     width: 70%;
   }
@@ -432,18 +520,26 @@ main.login{
   }
   .preguntas
   {
-    font-size:23px;
+    font-size:23px!important;
   }
   .respuesta
   {
-    font-size: 16px;
+    font-size: 16px!important;
+  }
+  .titulo2
+  {
+    font-size:27px;
   }
 
 }
 
-@media (max-width:1366px)
+@media (min-width:1366px)
 {
   .div_1
+  {
+    width: 70%;
+  }
+  .div_2
   {
     width: 70%;
   }
@@ -458,6 +554,10 @@ main.login{
   .respuesta
   {
     font-size: 17px;
+  }
+  .titulo2
+  {
+    font-size:30px;
   }
 
 }
