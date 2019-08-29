@@ -5,7 +5,7 @@
     <!--comienzo card -->
       <article class="container mt-5 pt-5">
           <div class="card-deck">
-              <div class="card border border-danger">
+              <div class="card border">
                   <img src="IMAGENES/jugador.jpg" class="card-img-top" alt="busco jugador">
                   <div class="card-body">
                       <h3 class="card-title text-center">Busco Jugador</h3>
@@ -17,7 +17,7 @@
                     </div>
                   </div>
               </div>
-              <div class="card border border-danger">
+              <div class="card border">
                   <img src="IMAGENES/buscar_equipo2.jpg" class="card-img-top" alt="buscar equipo">
                   <div class="card-body">
                       <h3 class="card-title text-center">Busco Equipo</h3>
@@ -29,7 +29,7 @@
                     </div>
                   </div>
               </div>
-              <div class="card border border-danger">
+              <div class="card border">
                   <img src="IMAGENES/armar_partido.jpg" class="card-img-top" alt="busco equipo">
                   <div class="card-body">
                       <h3 class="card-title text-center">Armar Partido</h3>

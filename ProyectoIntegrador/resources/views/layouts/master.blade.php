@@ -8,6 +8,7 @@
       @include('partials.carousel')
       @yield('content')
       @include('partials.footer')
+      @include('partials.script')
 
     </div>
 

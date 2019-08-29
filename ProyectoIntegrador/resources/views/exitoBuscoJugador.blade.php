@@ -2,8 +2,8 @@
 
 @section('content')
   <main>
-    <div class="container5">
-      <div class="card mb-3 alert-success card-exito" style="max-width: 700px;">
+    <div class="containerExito">
+      <div class="card mb-3 alert cardExito" style="max-width: 700px;">
         <div class="row no-gutters">
           <div class="col-md-4">
             <img src="/imagenes/arquero2.jpg" class="card-img img-exito" alt="jugador con pelota">
@@ -17,7 +17,9 @@
             </p>
               <p class="card-text text-center"><small class="text-muted">
               </small>
-<a class="text-success" href="/">Volver al inicio</a>
+                <a class="text-dark" href="/">
+                <i class="fas fa-home"><br>Inicio</i>
+                </a>
             </p>
             </div>
           </div>

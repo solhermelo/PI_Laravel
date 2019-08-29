@@ -15,9 +15,18 @@
     </a>
 
     <section>
-      <h6 class="rrss">ENCONTRANOS</h6>
-      <!--<img class="logo-fb" src="imagenes/logo-fb.jpg" alt="logo facebook">
-      <img class="logo-google" src="imagenes/logo-google.jpg" alt="logo Google">-->
+      <h6 class="tituloiconos">ENCONTRANOS</h6>
+<br>
+      <div class="iconosrs">
+      <i class="fab fa-instagram rrss"></i>
+      </div>
+      <div class="iconosrs">
+      <i class="fab fa-facebook-square rrss"></i>
+      </div>
+      <div class="iconosrs">
+        <i class="fab fa-twitter-square rrss"></i>
+      
+      </div>
     </section>
 
 </footer>

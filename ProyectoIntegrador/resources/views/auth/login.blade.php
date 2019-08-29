@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center formlogin">
         <div class="col-md-8">
             <div class="card bloque">
                 <div class="card-header">{{ __('Iniciar Sesion') }}</div>

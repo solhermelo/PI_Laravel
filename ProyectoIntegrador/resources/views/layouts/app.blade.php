@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -40,7 +41,7 @@
                         @guest
                             <a class="nav-link nav-item active boton" href="{{ route('login') }}">{{ __('Iniciar Sesion') }} <span class="sr-only">(current)</span></a>
                             @if (Route::has('register'))
-                            <button type="button" name="button" class="btn btn-danger ml-4 mr-4 pl-4 pr4">
+                            <button type="button" name="button" class="btn btn-danger ml-4 mr-4 pl-2 pr4">
                                     <a class="boton" href="{{ route('register') }}">{{ __('Registrate') }}</a>
                                 </button>
                             @endif
@@ -67,10 +68,7 @@
                 </div>
             </div>
         </nav>
-
-        <main class="login d-flex justify-content-center flex-column">
-            @yield('content')
-        </main>
     </div>
+@yield('content')
 </body>
 </html>

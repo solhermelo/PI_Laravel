@@ -1,10 +1,10 @@
 @extends('layouts.main')
 @section('content')
   <main>
-    <div class="container4 row pt-0">
+    <div class="container4 row">
       <table class="table table-hover tabla-busco-equipo">
         <thead>
-          <tr class="table-secondary">
+          <tr class="thead-dark">
             <th scope="col" class="text-center w-10"></th>
             <th scope="col" class="text-center w-10">Equipo</th>
             <th scope="col" class="text-center w-10">Fecha</th>
@@ -12,7 +12,7 @@
             <th scope="col" class="text-center w-10">Provincia</th>
             <th scope="col" class="text-center w-10">Localidad</th>
             <th scope="col" class="text-center w-10">Direccion</th>
-            <th scope="col" class="text-center w-10">Tipo de fútbol</th>
+            <th scope="col" class="text-center w-10">Fútbol</th>
             <th scope="col" class="text-center w-10">Jugadores</th>
             <th scope="col" class="text-center w-10">Aclaraciones</th>
             <th scope="col" class="text-center w-10">Quiero jugar</th>
@@ -23,7 +23,7 @@
             @forelse ($equipos as $key => $equipo)
               <tr>
               <th scope="row"></th>
-                <td class="text-center pt-4">{{$equipo->nombre}}</td>
+                <td class="text-center pt-4 px-4">{{$equipo->nombre}}</td>
                 <td class="text-center pt-4">{{$equipo->fecha}}</td>
                 <td class="text-center pt-4">{{$equipo->hora}}</td>
                 <td class="text-center pt-4">{{$equipo->provincia}}</td>
@@ -44,6 +44,6 @@
         </tbody>
       </table>
       </div>
-      {{$equipos->link()}}
+      {{$equipos->links()}}
     </body>
   @endsection
