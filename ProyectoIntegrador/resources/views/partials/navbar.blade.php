@@ -1,6 +1,4 @@
-<body>
-  <div id="app" class="container-fluid">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top p-1">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light fixed-top p-1">
             <a class="navbar-brand" href='/'>
               <img src="/imagenes/logo-quienjuega.png" width="60" height="60" alt="logo" class="ml-2">
             </a>

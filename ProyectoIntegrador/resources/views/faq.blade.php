@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-  <main>
-    <div class="container2">
+  <body class="container5">
+    <div class="">
     <div class="div_1 shadow p-3 mb-5 bg-white rounded">
       <h1 class="titulo">PREGUNTAS FRECUENTES</h1>
 
@@ -16,6 +16,6 @@
       @endforeach
 
     </div>
-  </div>
+    </div>
 
-  </main>
+  </body>

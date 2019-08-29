@@ -1,4 +1,5 @@
 @extends('layouts.main')
+@section('title', 'Busco Jugador')
 
 @section('content')
 <main>

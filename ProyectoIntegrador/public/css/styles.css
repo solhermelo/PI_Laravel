@@ -41,13 +41,17 @@ font-weight: bold;
     border-radius: 5px;
 }
 
-.container2
+.container5
 {
-  background-image: url(../imagenes/grass.jpg);
+  background-image: url(../imagenes/azules.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+
+main.login{
+  height: 100vh;
+}
 .container3
 {
   //-background-image: url(/imagenes/grass.jpg);
@@ -62,6 +66,11 @@ font-weight: bold;
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
@@ -252,18 +261,25 @@ font-weight: bold;
   top: 150px;
 }
 
-.container5{
-  height: 600px;
-
+/*Aca empieza el diseño del Login y el Register*/
+.container1
+{
+  background-image: url(../imagenes/Equipo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.card-exito{
-  position: absolute;
-  top: 150px;
-  left: 300px;
+.container2
+{
+  background-image: url(../imagenes/botines.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.img-exito{
 
+.bloque
+{
+    background-color: rgba(255,255,255,0.8);
+    font-size: 17px;
 }
 
 

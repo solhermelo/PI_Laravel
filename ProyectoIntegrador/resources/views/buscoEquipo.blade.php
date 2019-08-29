@@ -43,10 +43,7 @@
 
         </tbody>
       </table>
-
       </div>
-
-        {{$equipos->links()}}
-
-    </main>
+      {{$equipos->link()}}
+    </body>
   @endsection
